@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "numero": "14",
+    "depart": "Parcelles Assainies",
+    "arrivee": "Plateau",
+    "arrets": [
+      "Parcelles U14",
+      "Parcelles U10",
+      "Patte d'Oie",
+      "Grand Dakar",
+      "Ponty",
+      "Plateau"
+    ]
+  },
+
+  {
+    "id": 2,
+    "numero": "7",
+    "depart": "Guediawaye",
+    "arrivee": "Place Obe",
+    "arrets": [
+      "Guediawaye",
+      "Pikine",
+      "Thiaroye",
+      "Keur Massar",
+      "Grand Yoff",
+      "Place Obe"
+    ]
+  },
+
+  {
+    "id": 3,
+    "numero": "16",
+    "depart": "Pikine",
+    "arrivee": "Medina",
+    "arrets": [
+      "Pikine Centre",
+      "Thiaroye Gare",
+      "Hann",
+      "Colobane",
+      "Fann",
+      "Medina"
+    ]
+  },
+
+  {
+    "id": 4,
+    "numero": "23",
+    "depart": "Ouakam",
+    "arrivee": "Grand Dakar",
+    "arrets": [
+      "Ouakam Village",
+      "Mamelles",
+      "Fann",
+      "Plateau",
+      "Grand Dakar"
+    ]
+  },
+
+  {
+    "id": 5,
+    "numero": "8",
+    "depart": "Almadies",
+    "arrivee": "Colobane",
+    "arrets": [
+      "Almadies",
+      "Ngor",
+      "Yoff",
+      "Liberte 6",
+      "Colobane"
+    ]
+  },
+
+  {
+    "id": 6,
+    "numero": "12",
+    "depart": "Yoff",
+    "arrivee": "Sandaga",
+    "arrets": [
+      "Yoff Village",
+      "Aeroport LSS",
+      "Parcelles U17",
+      "Grand Yoff",
+      "HLM",
+      "Sandaga"
+    ]
+  }
+]

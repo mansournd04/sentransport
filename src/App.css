@@ -1,14 +1,36 @@
-import './Header.css';
-
-function Header() {
-  return (
-    <header className="header">
-      <h1 className="header-titre">SenTransport</h1>
-      <p className="header-soustitre">
-        Votre guide du transport en commun à Dakar
-      </p>
-    </header>
-  );
+.App {
+font-family : Arial , sans-serif;
+min-height : 100vh;
+background-color: #f5f6fa;
+display: flex;
+flex-direction: column;
 }
+ contenu {
+padding: 20 px;
+max-width: 800 px;
+margin: 0 auto;
+width: 100%;
+box-sizing: border-box;
+flex: 1;
+}
+@media ( max-width: 600px ) {
+ contenu {
+padding: 12px;
+}
+}
+@media (max-width: 600px) {
+  .contenu {
+    padding: 12px;
+  }
 
-export default Header;
+  .ligne-bus {
+    padding: 10px 12px;
+  }
+
+  .ligne-numero {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    margin-right: 12px;
+  }
+}
