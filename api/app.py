@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Charger les données depuis le fichier JSON
+# Charger les donnees depuis le fichier JSON
 with open("lignes_ddd.json", "r") as f:
     lignes = json.load(f)
 
@@ -22,15 +22,12 @@ def get_lignes():
 
 @app.route("/lignes/<int:ligne_id>")
 def get_ligne(ligne_id):
-
     ligne = next(
         (l for l in lignes if l["id"] == ligne_id),
         None
     )
-
     if ligne is None:
         return jsonify({"erreur": "Ligne non trouvee"}), 404
-
     return jsonify(ligne)
 
 if __name__ == "__main__":
