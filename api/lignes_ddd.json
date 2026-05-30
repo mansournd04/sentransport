@@ -85,5 +85,32 @@
       "HLM",
       "Sandaga"
     ]
+  },
+
+  {
+    "id": 7,
+    "numero": "36",
+    "depart": "Yoff",
+    "arrivee": "Plateau",
+    "arrets": [
+      "Yoff",
+      "Ngor",
+      "Almadies",
+      "Plateau"
+    ]
+  },
+
+  {
+    "id": 8,
+    "numero": "42",
+    "depart": "Pikine",
+    "arrivee": "Sandaga",
+    "arrets": [
+      "Pikine",
+      "Thiaroye",
+      "Dalifort",
+      "Sandaga"
+    ]
   }
+
 ]

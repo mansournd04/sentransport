@@ -9,7 +9,7 @@ function LigneBus({ ligne }) {
 
       <div className="infos">
 
-        <h3>{ligne.trajet}</h3>
+        <h3>{ligne.depart} → {ligne.arrivee}</h3>
 
         <p>{ligne.arrets} arrêts</p>
 
